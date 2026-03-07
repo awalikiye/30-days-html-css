@@ -1,0 +1,51 @@
+.body{
+    font-family: 'Times New Roman', Times, serif;
+background-color: aliceblue;
+margin: 0;
+padding: 20px;
+
+}
+nav{
+    background-color: rgb(7, 169, 169);
+    padding: 15px;
+    text-align: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: rgb(13, 115, 204);
+}
+.blog{
+    text-align: center;
+    padding: 30px;
+    background: skyblue;
+margin: 20px;
+border-radius: 10px;
+}
+article{
+    background: white;
+    padding:20px;
+    margin-bottom:20px ;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    line-height: 1.6;
+}
+
+
+article h2{
+    color: black;
+}
+article h3{
+    margin-top: 20px;
+}
+footer{
+    background: white;
+    color: rgb(91, 70, 31);
+    text-align: center;
+    padding:10px;
+    margin-top: 20px;
+}

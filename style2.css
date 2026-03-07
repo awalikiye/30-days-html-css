@@ -1,0 +1,50 @@
+.body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+} 
+h1{
+    background-color: aqua;
+    color: azure;
+    margin: 0;
+    padding: 20px;
+    margin: 0;
+}
+.main{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+    padding: 30px;
+}
+section{
+    background: white;
+    border-radius:10px ;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+section img{
+    width: 100%;
+    border-radius: 10px;
+}
+ section h2{
+    color: #333;
+}
+section ul{
+    list-style-type: none;
+    padding:0;
+}
+section ul li{
+    padding: 5px;
+}
+section:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+footer{
+    background: #333;
+    color: azure;
+   padding: 10px;
+   margin-top: 20px; 
+}
