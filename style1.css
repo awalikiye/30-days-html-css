@@ -21,3 +21,24 @@ body{
 .gallery- img:hover{
     transform: scale(1.05);
 }
+@media (max-width: 786px) {
+    .gallery{   
+    grid-template-columns: repeat(2,1fr);
+    
+}
+main{
+    grid-template-columns: repeat(2,1fr);
+}
+}
+@media (max-width:480px){
+    .gallery{
+        grid-template-columns: 1fr;
+    }
+    main{
+        grid-template-columns: 1fr;
+    }
+    nav a{
+        display:block;
+        margin: 10px 0;
+    }
+}

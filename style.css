@@ -65,3 +65,23 @@ button{
 button:hover{
     background-color: #555;
 }
+@media (max-width:768px) {
+    .gallery{
+        main{
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    @media (max-width: 480px) {
+        .gallery{
+            grid-template-columns: 1fr;
+        }
+        main{
+            grid-template-columns: 1fr;
+        }
+        nav a{
+            display: block;
+            margin:10px 0;
+        }
+        
+    }
+}
