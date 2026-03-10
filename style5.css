@@ -1,0 +1,55 @@
+.body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(7, 56, 39);
+    
+margin: 0 ;
+display: flex;
+justify-content: center;
+height: 100vh;
+
+}
+.newsletter{
+    background: white;
+    padding: 30px;
+    border-radius: 10px ;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    width: 300px;
+}
+   .newsletterh2{
+    margin-bottom: 10px;
+
+   } 
+   .newsletter p{
+    font-size: 14px;
+    color: aquamarine;
+   } 
+   input{
+    width: 100%;
+    padding:10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   }
+   .button{
+    margin-top: 15;
+    width: 100%;
+    padding: 10px;
+    background: #345bcd;
+   color: azure;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+
+}
+button:hover{
+    background: #ccc;
+}
+input:valid{
+    border: 2px greenyellow;
+}
+input:valid{
+    border: 2px rebeccapurple;
+}
+
+    
