@@ -22,7 +22,7 @@ height: 100vh;
    } 
    .newsletter p{
     font-size: 14px;
-    color: aquamarine;
+    color: rgb(5, 56, 39);
    } 
    input{
     width: 100%;
@@ -52,4 +52,8 @@ input:valid{
     border: 2px rebeccapurple;
 }
 
-    
+    @media (max-width:480px) {
+        .newsletter {
+            width: 90%;
+        }
+    }
