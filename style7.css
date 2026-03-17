@@ -1,0 +1,82 @@
+.body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:flex;
+    justify-content: center;
+    min-height:100vh;
+    background-color: rgb(3, 53, 36);
+    align-items: center;
+} 
+.container{
+    text-align: center;
+}
+h1{
+    color: #b67baf;
+    margin-bottom: 40px ;
+}
+.btn{
+    padding: 14px 32px;
+    margin: 10px;
+font-size: 16px;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+font-weight: bold;
+letter-spacing: 1px;
+}
+.btn-color{
+    background-color: blueviolet;
+    color: aqua;
+    transition: background-color 0.4s ease;
+}
+.btn-color:hover {
+    background-color: antiquewhite;
+}
+.btn-scale{
+    background-color: azure;
+    color: aliceblue;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-slide {
+  background-color: transparent;
+  color: #435f99;
+  border: 2px solid #45e99f;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.4s ease;
+}
+.btn-slide::before {  
+    content: "";
+  position: absolute;
+  top: 0; left: -100%;
+  width: 100%; height: 100%;
+  background-color: #501b60;
+  transition: left 0.4s ease;
+  z-index: -1;
+}
+.btn-slide:hover::before {
+  left: 0;
+}
+.btn-slide:hover {
+    color: aliceblue;
+}
+@keyframes pulse {              
+0%   { transform: scale(1); box-shadow: 0 0 0 0 rgba(233, 69, 96, 0.6); }
+  70%  { transform: scale(1.05); box-shadow: 0 0 0 12px rgba(233, 69, 96, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(233, 69, 96, 0); }
+   }
+   .btn-pulse {
+    background-color: bisque;
+    color: aliceblue;
+   }
+   .btn-press{
+    background-color: #16213e;
+  color: white;
+  border: 2px solid #103b1e;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  box-shadow: 0 6px 0 #1b80c3;
+   }
+   .btn-press:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #192b62;
+}
